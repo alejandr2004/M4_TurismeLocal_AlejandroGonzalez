@@ -1,0 +1,68 @@
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            
+            background-color: #d2b48c; 
+
+        }
+
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .fila {
+            width: 100%;
+            height: 33.33%;
+            
+            display: flex;
+        }
+
+        .columna {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .columna-1 {
+            width: 10%;
+            
+        }
+
+        .columna-2 {
+            width: 70%;
+           
+            display: flex;
+            flex-direction: column;
+            margin: 0; /* Eliminando el margen predeterminado */
+        }
+
+        .subfila {
+            flex: 1;
+            display: flex;
+        }
+
+        .subcolumna {
+            flex: 1;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .columna-3 {
+            width: 20%;
+          background-color: #f39c12;
+        }
+
+        .contenido {
+            color:transparent;
+            font-size: 24px;
+        }
+        p{
+
+            color:black;
+        }
